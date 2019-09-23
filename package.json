@@ -1,0 +1,22 @@
+{
+  "name": "test-style-loader-nonce",
+  "version": "0.1.0",
+  "description": "Test nonce on webpack's style loader",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node index"
+  },
+  "author": "Markus Greystone <markus.greystone@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1"
+  }
+}

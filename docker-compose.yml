@@ -1,0 +1,9 @@
+version: '2'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 8888:8888
