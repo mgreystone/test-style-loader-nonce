@@ -10,9 +10,9 @@
   "author": "Markus Greystone <markus.greystone@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^3.2.0",
+    "css-loader": "^0.28.11",
     "style-loader": "^1.0.0",
-    "webpack": "^4.40.2",
+    "webpack": "^4.37.0",
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
