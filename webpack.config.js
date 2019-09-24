@@ -11,6 +11,15 @@ module.exports = {
     publicPath: '/dist/'
   },
 
+  devServer: {
+    port: process.env.DEV_SERVER_PORT,
+    host: '0.0.0.0',
+    disableHostCheck: true,
+    historyApiFallback: true,
+    hot: true,
+    stats: 'minimal'
+  },
+
   module: {
     rules: [
       {

@@ -4,5 +4,7 @@ COPY --chown=node:node . /usr/local/app/
 RUN npm ci && npm run build
 USER node
 ENV PORT 8888
+ENV DEV_SERVER_PORT 8899
 EXPOSE 8888
+EXPOSE 8899
 CMD npm run start
